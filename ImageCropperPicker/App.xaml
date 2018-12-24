@@ -1,0 +1,12 @@
+﻿<Application
+    x:Class="ImageCropperPicker.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ImageCropperPicker"
+    xmlns:viewModels="using:ImageCropperPicker.ViewModels">
+    <Application.Resources>
+        <ResourceDictionary>
+            <viewModels:ViewModelLocator x:Name="Locator" />
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
